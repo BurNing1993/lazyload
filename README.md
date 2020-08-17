@@ -4,7 +4,7 @@
 
 ## Example
 
-- [Demo](./index.html)
+- [Demo](https://burning1993.github.io/lazyload/)
 
 ```js
 var observer = new IntersectionObserver(function (changes) {
