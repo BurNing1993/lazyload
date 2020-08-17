@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazyLoad</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        width: 100%;
+        height: 100vh;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/1920x1080?text=LOADING" data-src="images/14515.jpg" alt="img1"
+            class="lazy-loaded">
+        <img src="https://via.placeholder.com/1920x1080?text=LOADING" data-src="images/16095.jpg" alt="img2"
+            class="lazy-loaded">
+        <img src="https://via.placeholder.com/1920x1080?text=LOADING" data-src="images/16495.jpg" alt="img3"
+            class="lazy-loaded">
+        <img src="https://via.placeholder.com/1920x1080?text=LOADING"
+            data-src="images/5dd566ab5f6f71971d672ab08aa168a9.jpg" alt="img4" class="lazy-loaded">
+    </div>
+</body>
+<script src="lazyload.js"></script>
+
+</html>
